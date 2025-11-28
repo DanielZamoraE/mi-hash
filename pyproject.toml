@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mi-hash"
+version = "0.1.0"
+description = "Librería sencilla para generar hashes"
+authors = [{name="Tu Nombre"}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]

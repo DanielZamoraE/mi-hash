@@ -1,0 +1,23 @@
+# virtual env
+venv/
+.venv/
+
+# build artefacts
+dist/
+build/
+*.spec
+*.egg-info/
+
+# python cache
+__pycache__/
+*.pyc
+
+# test caches
+.pytest_cache/
+
+# inno setup output folder 
+*.iss
+*.exe
+
+# VSCode settings
+.vscode/
